@@ -11,6 +11,7 @@ It is recommended to install this extension using composer package manager:
 ```
 composer require creativestyle/magesuite-magepack
 bin/magento module:enable MageSuite_Magepack
+bin/magento config:set dev/js/enable_magepack_js_bundling 1
 bin/magento cache:clean
 ```
 
